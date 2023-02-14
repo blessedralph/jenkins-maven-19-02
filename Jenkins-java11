@@ -39,6 +39,9 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 sudo yum upgrade
 sudo yum install jenkins
-sudo systemctl daemon-reload
+type jenkins to confirm installation(you'll discovered it's installed but it's inactive)
+sudo systemctl daemon-reload...***(omit this command)
 service jenkins start
 systemctl enable jenkins
+(take d public IP address of ur EC2@ machine copied it to the browser:8080, enter. Copy d path in redline and cat it in ur CLI.
+A password will be displayed, copy and paste it in the box shown on the browser )
